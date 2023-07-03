@@ -1,0 +1,42 @@
+.nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: skyblue;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    position: sticky;
+    
+}
+
+.logo-image{
+    margin-top: 20px;
+    width: 50px;
+}
+.links ul {
+    display: flex;
+    align-items: center;
+}
+span {
+    color: tomato;
+}
+a {
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 40px;
+    letter-spacing: 1px;
+    color: black
+}
+a:hover {
+    transition: 2s;
+    color: tomato;
+}
+
+nav li {
+    display: inline-block; 
+    margin-right: 4px; 
+    
+  }
